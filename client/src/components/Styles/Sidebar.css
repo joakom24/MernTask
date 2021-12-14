@@ -1,0 +1,30 @@
+.section-one {
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(95, 17, 17);
+}
+.container, header {
+    display: flex;
+}
+
+header {
+    justify-content: space-around;
+    width: 70vw;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.task-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

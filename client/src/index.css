@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.task-enter, .proyect-enter {
+    opacity: 0;
+}
+
+.task-enter-active, .proyect-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.task-exit, .project-exit {
+    opacity: 1;
+}
+.task-exit-active, .proyect-exit-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
